@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:gravity="center_vertical">
+
+	<ImageView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:src="@android:drawable/ic_delete"
+		android:id="@+id/pidpickrowImageView"/>
+
+	<TextView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:text="Text"
+		android:layout_weight="1.0"
+		android:gravity="center_vertical"
+		android:id="@+id/pidpickrowTextViewName"/>
+
+	<TextView
+		android:layout_height="match_parent"
+		android:layout_width="wrap_content"
+		android:text="Text"
+		android:layout_gravity="right|center_vertical"
+		android:gravity="center_vertical"
+		android:id="@+id/pidpickrowTextViewID"/>
+
+</LinearLayout>
+
